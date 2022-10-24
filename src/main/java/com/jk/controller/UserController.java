@@ -23,6 +23,7 @@ public class UserController {
 
     @Autowired
     private UserService userService;
+
     // test123
     @RequestMapping("/getUserList")
     @ResponseBody
