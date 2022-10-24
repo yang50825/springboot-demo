@@ -23,7 +23,7 @@ public class UserController {
 
     @Autowired
     private UserService userService;
-
+    // test
     @RequestMapping("/getUserList")
     @ResponseBody
     public List<UserEntity> getUserList() {
